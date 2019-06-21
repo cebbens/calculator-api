@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <logger name="web" level="DEBUG"/>
+    <logger name="org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener" level="INFO"/>
+
+<!--    <logger name="com.upwork.challenge.calculator.CalculatorController" level="DEBUG"/>-->
+<!--    <logger name="com.upwork.challenge.calculator.CalculatorService" level="DEBUG"/>-->
+</configuration>
